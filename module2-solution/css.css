@@ -21,11 +21,15 @@ h1 {
 }
 
 section {
-    position: relative;
-    background-color: gray;
     float: left;
-    border: 1px black solid;
     font-size: 100%;
+}
+
+section div {
+    position: relative;
+    border: 1px black solid;
+    background-color: gray;
+    margin: 5px;
 }
 
 h3 {
